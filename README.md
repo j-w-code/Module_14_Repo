@@ -32,7 +32,7 @@ In this report we will cover the findings of our machine learning algorithms, th
   * Below we will add an image of the Perceptron Model results graph. The actual results once again perform better than the stragtegy indicates. This time by a higher amount than that of the baseline SVC model. This model had a date-offset set as 7 months.    
     
     
-   ![<alt text>](https://i.postimg.cc/8PR1TSxD/perc-predictions.png)
+    ![<alt text>](https://i.postimg.cc/8PR1TSxD/perc-predictions.png)
     
     
     
@@ -40,11 +40,20 @@ In this report we will cover the findings of our machine learning algorithms, th
     
 ## Summary
 
-In this report we took our lending dataset, split the data into training and testing groups for modeling with a Logistic Regression Model in order to detect healthy ("0") and risky ("1") loan values. 
-* Of the two models it appears that the resampled dataset model renders slightly better results when attempting to find and classify the risky loans. 
-* Performance of the models does depend on what we are trying to solve for. In this case detecting the amount of fewer risky loans when compared to the overall dataset. 
+In this analysis we took our dataset, split the data into training and testing groups, scaled the data, and ran various models to determine which functioned the best.   
 
-    To that end the resampled model appears to track the risky ("1") data ever so slightly better than the original dataset and we will reccomend using this model. 
+* Of all the models used it appears the inital baseline model SVC has results in "Strategy Returns" most closely aligning with "Actual Returns". 
+* Both LRM and Perceptron models have higher "Actual Returns" and show high divergence with the projected "Strategy Returns." 
     
+    
+Given that the alignmnet between "Actual" and "Strategy" returns occurs most closely in the SVC baseline model we will reccomend it's use overall. Although the "Actual Returns" of the other two models is compelling their heavily decoupled "Strategy" status may mean that they are not the best models to be utilized for our purposes. 
+    
+## Contributors
+
+Jeffrey J. Wiley Jr
+
+## License
+
+MIT
     
     
