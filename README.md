@@ -29,7 +29,7 @@ In this report we will cover the findings of our machine learning algorithms, th
 
 
  * Perceptron Model:
-  * Below we will add an image of the Perceptron Model results graph. The actual results once again perform better than the stragtegy indicates. This time by a higher amount than that of the baseline SVC model. This model had a date-offset set as 7 months.    
+   * Below we will add an image of the Perceptron Model results graph. The actual results once again perform better than the stragtegy indicates. This time by a higher amount than that of the baseline SVC model. This model had a date-offset set as 7 months.    
     
     
     ![<alt text>](https://i.postimg.cc/8PR1TSxD/perc-predictions.png)
